@@ -16,7 +16,7 @@ IDEA－＞New -> Project ->Maven -> 01-spring-boot-config
 
 项目结构
 
-![image-20210905171315053](C:\Users\dengyong\AppData\Roaming\Typora\typora-user-images\image-20210905171315053.png)
+![image-20210905171315053](images/01.png)
 
 pom文件引入依赖
 
