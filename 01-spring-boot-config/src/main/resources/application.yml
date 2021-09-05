@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+# SpringBoot配置
+spring:
+  application:
+    name: @project.artifactId@
+# 自定义配置，按照yml格式编写即可
+userinfo:
+  id: 1
+  username: zhangsan
+
+
+
