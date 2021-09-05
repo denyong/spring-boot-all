@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>02-spring-boot-mybatis-plus</module>
         <module>01-spring-boot-config</module>
+        <module>02-spring-boot-mybatis-plus</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

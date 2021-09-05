@@ -18,4 +18,7 @@ public class User {
 
     @Value("${userinfo.username}")
     private String username;
+
+    @Value("#{'userinfo.username'}")
+    private String number;
 }

@@ -19,6 +19,7 @@ public class ConfigController {
     private final User user;
     @GetMapping("/getUserInfo")
     public String getUserInfo() {
+        log.info("number:"+user.getNumber());
         return "id:"+user.getId()+"  name:"+user.getUsername();
     }
 }
