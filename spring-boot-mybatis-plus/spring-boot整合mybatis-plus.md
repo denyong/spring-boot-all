@@ -181,10 +181,10 @@ UserMapper.xml配置
 
 接口测试
 
-请求：http://127.0.0.1:8888/getUserInfo?id=12
+请求：```http://127.0.0.1:8888/getUserInfo?id=12```
 
-响应：{"id":12,"name":"zhnagsan"}
+响应：```{"id":12,"name":"zhnagsan"}```
 
-至此，SpringBoot整合MyBatis-Plus完成，这里是简单的入门级配置，如果需要了解更多，请访问官网：https://baomidou.com/guide/
+至此，SpringBoot整合MyBatis-Plus完成，这里是简单的入门级配置，如果需要了解更多，请访问官网：```https://baomidou.com/guide/```
 
-本示例完整地址：
+本示例完整地址：```https://github.com/denyong/spring-boot-all.git```
