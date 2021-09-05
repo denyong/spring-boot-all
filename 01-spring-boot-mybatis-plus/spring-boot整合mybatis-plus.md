@@ -28,7 +28,7 @@ IDEA－＞New -> Project ->Maven -> spring-boot-mybatis-plus
 
 项目结构
 
-![01.png](./image/01.png)
+![01.png](image/01.png)
 
 
 
