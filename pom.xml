@@ -11,6 +11,7 @@
     <modules>
         <module>01-spring-boot-config</module>
         <module>02-spring-boot-mybatis-plus</module>
+        <module>03-spring-boot-JdbcTemplate</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 8003
 
 # SpringBoot+MySql配置
 spring:
@@ -36,20 +36,4 @@ spring:
       filters: stat,wall
       # Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
       aop-patterns: com.springboot.servie.*
-
-
-# MyBatis-Plus配置
-mybatis-plus:
-  configuration:
-    map-underscore-to-camel-case: true
-    auto-mapping-behavior: full
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath*:mapper/**/*Mapper.xml
-  global-config:
-    # 逻辑删除配置
-    db-config:
-      # 删除前
-      logic-not-delete-value: 1
-      # 删除后
-      logic-delete-value: 0
 
